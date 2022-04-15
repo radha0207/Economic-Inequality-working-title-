@@ -6,7 +6,7 @@ We are the Economic Inequality Group (for now, at least! We are not entirely set
 #### Data Specialist
 Edryna Ahmed is a fourth-year at the University of California, Los Angeles studying Economics with a minor in Digital Humanities. She is a big foodie who is always trying to make the most out of every day.
 
-### *Jack WitherSpoon*
+### *Jack Witherspoon*
 #### Back-end
 Jack Witherspoon is a fourth-year at the University of California, Los Angeles studying Economics with a minor in Accounting. He is a driven and ambitious individual, determined to make the most out of his education and future professional endeavors in the financial services industry. In his free time, he enjoys cooking, reading and trying new foods.
 
