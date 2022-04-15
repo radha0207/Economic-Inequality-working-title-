@@ -14,6 +14,13 @@ The next step is to decide what labor conditions we are interested in. There is 
 We would use color to show the different poverty levels across countries, similar to the World Poverty Map. We would have a sidebar that lists all of the labor components we have data on. The user would click on each component, one at a time to learn more about each component. To get an overview of the labor conditions in each country, we would want each country to have a visible circle, where useres can click on to see a box with a summary of labor conditions.
 
 ### Responsibilities and Progress 
+Edryna 
+
+Annika 
+
+Radha
+
+Jack
 
 ### Our Hopes for the Site's Impact
 
