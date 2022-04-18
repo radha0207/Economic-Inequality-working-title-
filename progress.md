@@ -38,7 +38,7 @@ Web mapping will articulate a visualization of different areas of the world that
 
 http://metrocosm.com/global-immigration-map/
 
-Notes: Our team liked the simplicity and movment of this map
+Notes: Our team liked the simplicity and movment of this map. This animated visualization shows the estimated net immigration between global countries from 2010 to 2015. Hover over the circles to see the net immigration totals—blue circles have positive net migrations
 
 
 ## Justin Davis's Minimum Hourly Wage Map:
@@ -47,7 +47,7 @@ Notes: Our team liked the simplicity and movment of this map
 
 https://public.tableau.com/app/profile/justindavis/viz/AtMinimum/AtMinimum
 
-Notes: Could be an alternative way to show change over time if we are not able to animate data
+Notes: Could be an alternative way to show change over time if we are not able to animate data. This map demonstrates the percentage of all US hourly workers that earn minimum wage or less. Each map in the set of small multiples provides a yearly snapshot of minimum wage workers going as far back as 2002. When you hover over a state, the percentage of workers for that area is noted and looking year-by-year, state-by-state you can see if there is an upward or downward trend.
 
 ## Scott Teal's FIFA World Cup Rating Info Map:
 
@@ -55,6 +55,5 @@ Notes: Could be an alternative way to show change over time if we are not able t
 
 https://public.tableau.com/app/profile/scott.teal/viz/2018FIFAWorldCupRatings/2018FIFAWorldCupRatings
 
-Notes: The addtional graphs provide interesting analysis that we thing our project could benifit from
-
+Notes: The addtional graphs provide interesting analysis that we thing our project could benifit from. This visualization is a blend of teams and players in the 2018 World Cup tournament, combined with player ratings from FIFA 18. The use of heat maps can also be an effetive tool since we are dealing with a large volume of complex data points.
 
