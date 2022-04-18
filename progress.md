@@ -34,11 +34,23 @@ Max Galka's Net Migration Map:
 
 http://metrocosm.com/global-immigration-map/
 
+Notes: Our team liked the simplicity and movment of this map
+
 
 Justin Davis's Minimum Hourly Wage Map:
 
 <img width="805" alt="Screen Shot 2022-04-17 at 8 48 24 PM" src="https://user-images.githubusercontent.com/97418760/163751588-40f984fc-2229-4513-ad2d-178b59f32b66.png">
 
 https://public.tableau.com/app/profile/justindavis/viz/AtMinimum/AtMinimum
+
+Notes: Could be an alternative way to show change over time if we are not able to animate data
+
+Scott Teal's FIFA World Cup Rating Info Map:
+
+<img width="1096" alt="Screen Shot 2022-04-17 at 10 25 27 PM" src="https://user-images.githubusercontent.com/97418760/163759280-20426e2b-a5b5-4478-8735-927ba7e2fe3b.png">
+
+https://public.tableau.com/app/profile/scott.teal/viz/2018FIFAWorldCupRatings/2018FIFAWorldCupRatings
+
+Notes: The addtional graphs provide interesting analysis that we thing our project could benifit from
 
 
