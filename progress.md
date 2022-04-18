@@ -27,3 +27,10 @@ We would use color to show the different poverty levels across countries, simila
 Our hope in pursuing this project is to help shed light on why certain countries have developed and other countries have not. Through exploring a number of different social and economic indicators we hope to give a potential explanation for this situation. Economic development data is often highly politicized and weaponized. Our group hopes to give an objective analysis of these relationships. In hopes that others can use this information to better understand how certain social and economic factors affect development.
 
 ## Images for Inspiration
+
+Max Galka's Net Migration Map:
+
+<img width="1092" alt="Screen Shot 2022-04-17 at 8 45 10 PM" src="https://user-images.githubusercontent.com/97418760/163751286-a1f50153-5fd7-446d-98e6-cfc1080510ec.png">
+
+http://metrocosm.com/global-immigration-map/
+
