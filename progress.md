@@ -20,7 +20,7 @@ We would use color to show the different poverty levels across countries, simila
 
 ### Radha
 
-### Jack
+### Jack: 
 
 ## Our Hopes for the Site's Impact
 
