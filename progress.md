@@ -24,4 +24,6 @@ We would use color to show the different poverty levels across countries, simila
 
 ## Our Hopes for the Site's Impact
 
+Our hope in pursuing this project is to help shed light on why certain countries have developed and other countries have not. Through exploring a number of different social and economic indicators we hope to give a potential explanation for this situation. Economic development data is often highly politicized and weaponized. Our group hopes to give an objective analysis of these relationships. In hopes that others can use this information to better understand how certain social and economic factors affect development.
+
 ## Images for Inspiration
