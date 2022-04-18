@@ -4,7 +4,7 @@
 1. [World Poverty Map](https://worldpoverty.io/map) shows a chloropleth map where color indicates the poverty level of each country 
 
 ## Datasets of Interest
-Our group is interested in the question of "Why are countries poor?" and we want to explore if there are correlations with the day-to-day experiences of the working class. From our research, we noticed that there were several Labor Indices that are already out there. This is great and we want to bring their findings to life. Hence, we have narrowed down our project to focus on the link between labor conditions and working poverty rates around the world. 
+Our group is interested in the question of "How do labor rights issues affect poverty rates?" and we want to explore if there are correlations with the day-to-day experiences of the working class. From our research, we noticed that there were several Labor Indices that are already out there. This is great and we want to bring their findings to life. Hence, we have narrowed down our project to focus on the link between labor conditions and working poverty rates around the world. 
 
 In terms of working poverty rates, we will be using this dataset. We wanted to narrow it down to [working poverty rates](https://www.ilo.org/shinyapps/bulkexplorer22/?lang=en&segment=indicator&id=EMP_2EMP_SEX_AGE_CLA_NB_A)  rather than poverty rates because we want our project to revolve around the experiences of people who are employed. 
 
