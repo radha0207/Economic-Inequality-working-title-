@@ -34,3 +34,11 @@ Max Galka's Net Migration Map:
 
 http://metrocosm.com/global-immigration-map/
 
+
+Justin Davis's Minimum Hourly Wage Map:
+
+<img width="805" alt="Screen Shot 2022-04-17 at 8 48 24 PM" src="https://user-images.githubusercontent.com/97418760/163751588-40f984fc-2229-4513-ad2d-178b59f32b66.png">
+
+https://public.tableau.com/app/profile/justindavis/viz/AtMinimum/AtMinimum
+
+
