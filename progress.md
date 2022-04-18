@@ -26,6 +26,10 @@ We would use color to show the different poverty levels across countries, simila
 
 Our hope in pursuing this project is to help shed light on why certain countries have developed and other countries have not. Through exploring a number of different social and economic indicators we hope to give a potential explanation for this situation. Economic development data is often highly politicized and weaponized. Our group hopes to give an objective analysis of these relationships. In hopes that others can use this information to better understand how certain social and economic factors affect development.
 
+Web mapping will articulate a visualization of different areas of the world that have different levels of poverty. Within a globalization context, working poverty by country can help us understand the different correlations each country's poverty level has to supply chains, private property rights or labor rights. To capture the scale of poverty, the map will not only educate others about these correlations but have a clearer view of how poverty is connected to economic inequality.
+
+
+
 ## Images for Inspiration
 
 ## Max Galka's Net Migration Map:
