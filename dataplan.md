@@ -1,4 +1,4 @@
-# Economic Inequality: Data Plan
+# Data Plan
 We identified two datasets that we plan on using to demonstrate the relationship between working poverty and labor rights. In general, we have chosen to limit our inquiry to data on the year 2017, the most recent year for which we have been able to find comprehensive data. 
 
 ## Working Poverty Rates
