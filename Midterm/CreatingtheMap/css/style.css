@@ -38,3 +38,68 @@ body {
     background-color: rgb(8, 33, 60); 
 	grid-gap:0; 
 }
+
+.navigation-item{
+	max-height: 20px;
+	text-align: center;
+    padding: 10px; 
+    background: rgb(8, 33, 60);
+    color: rgb(249, 171, 103); 
+    font-family: 'Helvetica', sans-serif;
+    cursor: pointer;
+	float: left;
+	position: sticky; 
+}
+
+.navigation-item:hover{
+	max-height: 20px;
+	text-align: center;
+    background: rgb(3, 19, 37);
+}
+
+.active-navigation-item{
+	max-height: 20px;
+	text-align: center;
+    padding: 10px; 
+    background: rgb(249, 171, 103);
+    color: rgb(241, 225, 210); 
+    font-family: 'Helvetica', sans-serif;
+	display: inline; 
+	float: left;
+	position: sticky; 
+	border-right: 1px solid rgb(249, 171, 103) 
+}
+
+.title {
+	grid-area: title;
+	margin:0; 
+	padding:10px;
+	background-color: rgb(8, 33, 60);
+	color: rgb(255, 151, 60);
+	font-size:2.5em;
+	font-family:'Libre Bodoni', serif;
+	font-weight:lighter;
+}
+
+h2{
+	margin:0px; 
+	font-size:2em;
+}
+
+.content {
+	padding-left: 10px;
+	margin:0;
+	height:700px; 
+	grid-area: content;
+	background: rgb(8, 33, 60);
+    color: rgb(241, 225, 210); 
+	font-family: 'Helvetica', sans-serif;
+}
+
+.footer {
+	grid-area: footer;
+	padding:10px;
+	background-color: rgb(10, 45, 82);
+    color: rgb(249, 171, 103);
+    font-family: 'Helvetica', sans-serif;
+}
