@@ -3,14 +3,14 @@ let map;
 let lat = 0;
 let lon = 0;
 let zl = 3;
-let path = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv';
+let path = "data/laborinthdata.csv";
 let markers = L.featureGroup();
+let povertyMarkers = L.featureGroup(); 
 let csvdata;
-let lastdate;
 
 // initialize
 $( document ).ready(function() {
-	createMap(lat,lon,zl);
+    createMap(lat,lon,zl);
 	readCSV(path);
 });
 
@@ -24,7 +24,7 @@ function createMap(lat,lon,zl){
 }
 
 // function to read csv data
-function readCSV(path){
+function readCSV(){
 	Papa.parse(path, {
 		header: true,
 		download: true,
@@ -33,57 +33,55 @@ function readCSV(path){
 			// put the data in a global variable
 			csvdata = data;
 
-			// get the last date
-			lastdate = csvdata.meta.fields[csvdata.meta.fields.length-1];
-			
-			
-
-			
+			// map the data for the given date
+			mapCSV();
 		}
 	});
 }
 
-function mapCSV(date){
 
-	// clear layers
+function mapCSV(){
+
+	// clear layers in case you are calling this function more than once
 	markers.clearLayers();
 
 	// loop through each entry
 	csvdata.data.forEach(function(item,index){
-		if(item.Lat != undefined){
+		if(item.OverallFairLabor != undefined){
 			// circle options
-			let circleOptions = {
-				radius: getRadiusSize(item[date]),
+			 let circleOptions = {
+				radius: item.OverallFairLabor*2,　// call a function to determine radius size
 				weight: 1,
 				color: 'white',
-				fillColor: 'red',
+				fillColor: 'navy',
 				fillOpacity: 0.5
 			}
-			let marker = L.circleMarker([item.Latitude,item.Longitude],circleOptions)
-			
+			let marker = L.circleMarker([item.Latitude,item.Longitude], circleOptions)
+			.on('mouseover',function(){
+				this.bindPopup(`${item['Country']} <br> Labor Indicators Score: ${item['OverallFairLabor']}`).openPopup()
+			}) // show data on hover
 			markers.addLayer(marker)	
 		}
+        
+        if(item.ExtremePoor != undefined){
+            let Pmarker = L.marker([item.Latitude, item.Longitude])
+            .on('click', function(){
+                this.bindPopup(`${item['Country']} <br> Extreme Poverty Rate: ${item['ExtremePoor']} <br> Moderate Poverty Rate: ${item['ModeratePoor']} <br> Near Poverty Rate: ${item['NearPoor']}`).openPopup()
+            })
+            povertyMarkers.addLayer(Pmarker)
+        } 
 	});
 
 	markers.addTo(map)
+    povertyMarkers.addTo(map)
+
+    let layers = {
+        "Working Poverty": povertyMarkers,
+        "Fair Labor": markers
+    }
+
+    L.control.layers(null,layers).addTo(map)
+
 	map.fitBounds(markers.getBounds())
-
 }
 
-function getRadiusSize(value){
-
-	let values = [];
-
-	// get the min and max
-	csvdata.data.forEach(function(item,index){
-		if(item[lastdate] != undefined){
-			values.push(Number(item[lastdate]))
-		}
-	})
-	let min = Math.min(...values);
-	let max = Math.max(...values)
-	
-	// per pixel if 100 pixel is the max range
-	perpixel = max/100;
-	return value/perpixel
-}

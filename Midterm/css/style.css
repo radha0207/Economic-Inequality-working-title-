@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Maven+Pro:wght@800&display=swap');
+
 body,html {
 	margin:0;
 	height:100%;
@@ -10,164 +12,93 @@ body,html {
 
 body {
 	display: grid;
-	font-family: Arial, Helvetica, sans-serif;
-	grid-template-rows: 60px 1fr 40px;
-	grid-template-columns: 300px 1fr;
+	grid-template-rows: 130px 1fr;
+	grid-template-columns: 170px 1fr;
 	grid-template-areas: 
 	"header header"
+    "navigation navigation"
+	"title title"
 	"content content"
-	"footer footer";
-}
-
-.container{
-	width: 80%;
-	margin: 0 auto;
+    "footer footer"; 
 }
 
 .header {
 	grid-area: header;
-	padding-top:10px;
-	padding-bottom: 10px;
-	float: left;
-	background-color: #a1d3ff;
-	color: #0A1126;
-	font-style: italic;
-	text-transform:uppercase;
-	letter-spacing: 2px;
+	padding:5px;
+	background-color: rgb(8, 33, 60);
+	color: rgb(255, 151, 60);
+	font-size: 2em;
+	font-family: 'Maven Pro', sans-serif;
 	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif; 
-	font-size: 20px;
 }
 
-
-nav{
-	text-align:center;
-    width:750px;
-	margin:0 auto;
-    font-size:7px;
-    text-transform:uppercase;
-    letter-spacing:2px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.navigation{
+    grid-area: navigation;
+	height:fit-content;
+    background-color: rgb(8, 33, 60); 
+	grid-gap:0; 
 }
 
-nav ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-nav li{
-	float: left;
+.navigation-item{
+	max-height: 20px;
 	text-align: center;
-	margin-left: 90px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    padding: 10px; 
+    background: rgb(8, 33, 60);
+    color: rgb(249, 171, 103); 
+    font-family: 'Helvetica', sans-serif;
+    cursor: pointer;
+	float: left;
+	position: sticky; 
 }
 
-nav a.active {
-	background-color: #fff4ec;
-	color: #c98686;
-  }
-
-nav a{
-
-	color: #0A1126;
-	display:inline-block;
-    width: 150px;
-	text-decoration: none;
-	font-size: 12px;
-	text-transform: uppercase;
-	border-bottom:1px solid transparent;  
-    border-top:1px solid transparent;   
+.navigation-item:hover{
+	max-height: 20px;
+	text-align: center;
+    background: rgb(3, 19, 37);
 }
 
-nav a:hover{
-	color:#FF6962;
+.active-navigation-item{
+	max-height: 20px;
+	text-align: center;
+    padding: 10px; 
+    background: rgb(249, 171, 103);
+    color: rgb(241, 225, 210); 
+    font-family: 'Helvetica', sans-serif;
+	display: inline; 
+	float: left;
+	position: sticky; 
+	border-right: 1px solid rgb(249, 171, 103) 
 }
 
-nav a::before{
-	content: '';
-	display: block;
-	height: 5px;
-	background-color: #fff;
-	position: absolute;
-	top: 0;
-	width: 0%;
-	transition: all ease in-out 250ms;
-
+.title {
+	grid-area: title;
+	margin:0; 
+	padding:10px;
+	background-color: rgb(8, 33, 60);
+	color: rgb(255, 151, 60);
+	font-size:2.5em;
+	font-family:'Libre Bodoni', serif;
+	font-weight:lighter;
 }
 
-
-
-#add{
-	bottom: 0;
-	left: 50%;
-	margin-left: -725px;
-	position:absolute;
-	width: 300px;
-	height: 200px;
-	padding-bottom: 40px;
+h2{
+	margin:0px; 
+	font-size:2em;
 }
 
 .content {
+	margin:0;
+	height:700px; 
 	grid-area: content;
-}
-
-.content2{
-	padding-left: 20px;
+	background: rgb(8, 33, 60);
+    color: rgb(241, 225, 210); 
+	font-family: 'Helvetica', sans-serif;
 }
 
 .footer {
 	grid-area: footer;
 	padding:10px;
-	background-color: #a1d3ff;
-}
-
-.sidebar-item {	/* border: 1px solid gray; */
-	padding: 10px;	/* background-color: #333; */
-	float:left;
-	cursor:pointer;
-	color: #f6ecf8;
-	font-size: 1em;
-	border: 5px #0A1126;
-	background-color: #0A1126;
-	margin: 5px;
-	border-radius: 4px;
-}
-.sidebar-item:hover {
-	background-color: #FF6962;
-	-webkit-transition: all 0.4s;
-  	-moz-transition: all 0.4s;
-  	transition: all 0.4s;
-	
-}
-.photo-row {
-	/*flex: 25%;*/
-	/*padding: 5px;*/
-	display: center;
-}
-
-.pic{
-	/*border: 1px solid rgba(0, 0, 0, 0.8);*/
-	text-align: center;
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
-	background-color: #f8f9fa;
-	padding: 20px;
-	height: auto;
-}
-
-.pic img {
-	display: block;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.about {
-	display: center;
-	background-color: #f8f9fa;
-	padding: 20px;
-	height: auto;
+	background-color: rgb(10, 45, 82);
+    color: rgb(249, 171, 103);
+    font-family: 'Helvetica', sans-serif;
 }
