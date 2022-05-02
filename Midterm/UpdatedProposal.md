@@ -3,7 +3,7 @@ We are Laborinth! We are interested in exploring the relationship between workin
 
 ## Team members
 ### *Edryna Ahmed*
-![Alt text](/about/edryna.png)
+!(/about/edryna.png)
 Edryna Ahmed is a fourth-year at the University of California, Los Angeles studying Economics with a minor in Digital Humanities. She is a big foodie who is always trying to make the most out of every day.
 
 ### *Jack Witherspoon*
