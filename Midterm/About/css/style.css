@@ -26,6 +26,44 @@ body {
 	text-align: center;
 }
 
+.navigation{
+    grid-area: navigation;
+	height:fit-content;
+    background-color: rgb(8, 33, 60); 
+	grid-gap:0; 
+}
+
+.navigation-item{
+	max-height: 20px;
+	text-align: center;
+    padding: 10px; 
+    background: rgb(8, 33, 60);
+    color: rgb(249, 171, 103); 
+    font-family: 'Helvetica', sans-serif;
+    cursor: pointer;
+	float: left;
+	position: sticky; 
+}
+
+.navigation-item:hover{
+	max-height: 20px;
+	text-align: center;
+    background: rgb(3, 19, 37);
+}
+
+.active-navigation-item{
+	max-height: 20px;
+	text-align: center;
+    padding: 10px; 
+    background: rgb(249, 171, 103);
+    color: rgb(241, 225, 210); 
+    font-family: 'Helvetica', sans-serif;
+	display: inline; 
+	float: left;
+	position: sticky; 
+	border-right: 1px solid rgb(249, 171, 103) 
+}
+
 .sidebar {
 	color: white;
 	grid-area: sidebar;
