@@ -3,15 +3,15 @@ We are Laborinth! We are interested in exploring the relationship between workin
 
 ## Team members
 ### *Edryna Ahmed*
-<img width="480" alt="edryna" src="https://user-images.githubusercontent.com/102548069/166313201-bfe017b9-f539-40ed-888f-8ac38a683fd5.png">
+<img width="100" alt="edryna" src="https://user-images.githubusercontent.com/102548069/166313201-bfe017b9-f539-40ed-888f-8ac38a683fd5.png">
 Edryna Ahmed is a fourth-year at the University of California, Los Angeles studying Economics with a minor in Digital Humanities. She is a big foodie who is always trying to make the most out of every day.
 
 ### *Jack Witherspoon*
-<img width="480" alt="jack" src="https://user-images.githubusercontent.com/102548069/166313285-1670e669-3f05-4e26-91eb-db6a7ff2a15e.png">
+<img width="100" alt="jack" src="https://user-images.githubusercontent.com/102548069/166313285-1670e669-3f05-4e26-91eb-db6a7ff2a15e.png">
 Jack Witherspoon is a fourth-year at the University of California, Los Angeles studying Economics with a minor in Accounting. He is a driven and ambitious individual, determined to make the most out of his education and future professional endeavors in the financial services industry. In his free time, he enjoys cooking, reading and trying new foods.
 
 ### *Annika Sial*
-![annika](https://user-images.githubusercontent.com/102548069/166313144-06c4e1a3-a75c-45c4-b9f2-4f70ae074d91.png)
+<img width="100" alt="annika" src="https://user-images.githubusercontent.com/102548069/166313144-06c4e1a3-a75c-45c4-b9f2-4f70ae074d91.png">
 Annika Sial is a fourth-year student studying English and minoring in conservation biology. She is generally passionate about protecting the public interest but particularly interested in promoting human rights, animal rights, and environmental justice.
 
 
