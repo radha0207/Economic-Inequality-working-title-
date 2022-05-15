@@ -3,16 +3,47 @@ let map;
 let lat = 0;
 let lon = 0;
 let zl = 3;
-let path = "data/laborinthdata.csv";
+let path = 'data/laborinthdata.csv';
 let markers = L.featureGroup();
 let povertyMarkers = L.featureGroup(); 
 let csvdata;
+
+// put this in your global variables
+let geojsonPath = 'data/laborinthworld.json';
+let geojson_data;
+let geojson_layer;
 
 // initialize
 $( document ).ready(function() {
     createMap(lat,lon,zl);
 	readCSV(path);
+	getGeoJSON();
 });
+
+// function to get the geojson data
+function getGeoJSON(){
+
+	$.getJSON(geojsonPath,function(data){
+		console.log(data)
+
+		// put the data in a global variable
+		geojson_data = data;
+
+		// call the map function
+		mapGeoJSON()
+	})
+}
+
+// function to map a geojson file
+function mapGeoJSON(){
+
+	// create the layer and add to map
+	geojson_layer = L.geoJson(geojson_data).addTo(map);
+
+	// fit to bounds
+	map.fitBounds(geojson_layer.getBounds())
+}
+
 
 // create the map
 function createMap(lat,lon,zl){
