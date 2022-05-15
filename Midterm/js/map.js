@@ -12,7 +12,7 @@ const wpRGB = [51, 255, 255];
 const liRGB = [51, 255, 0];
 
 // put this in your global variables
-let geojsonPath = 'data/laborinthworld.json';
+let geojsonPath = 'data/laborinthworld.geojson';
 let geojson_data;
 let geojson_layer;
 
@@ -27,8 +27,6 @@ $( document ).ready(function() {
 function getGeoJSON(){
 
 	$.getJSON(geojsonPath,function(data){
-		console.log(data)
-
 		// put the data in a global variable
 		geojson_data = data;
 
