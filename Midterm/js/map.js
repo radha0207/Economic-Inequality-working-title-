@@ -8,6 +8,9 @@ let markers = L.featureGroup();
 let povertyMarkers = L.featureGroup(); 
 let csvdata;
 
+const wpRGB = [51, 255, 255];
+const liRGB = [51, 255, 0];
+
 // put this in your global variables
 let geojsonPath = 'data/laborinthworld.json';
 let geojson_data;
@@ -116,3 +119,19 @@ function mapCSV(){
 	map.fitBounds(markers.getBounds())
 }
 
+function getColor(ExtremePoor, OverallFairLabor){
+	let liOpacity = OverallFairLabor/10;
+	let wpOpacity = ExtremePoor/100;
+	
+	
+}
+
+//convert rgb to hex
+function componentToHex(c) {
+	var hex = c.toString(16);
+	return hex.length == 1 ? "0" + hex : hex;
+  }
+  
+  function rgbToHex(r, g, b) {
+	return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+  }
