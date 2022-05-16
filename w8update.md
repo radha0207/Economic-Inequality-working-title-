@@ -1,17 +1,23 @@
-# group name
-Laborinth
+# Laborinth
+## Edryna, Annika, Jack
 
-# group members
+# New Features 
+* Chloropleth map 
+* Bivariate map
+* Making web design consistent across all pages 
 
+# Description of these features and any other additions to the group project
+* Chloropleth map
+  * Separate chloropleth layers
+* Bivariate map 
+  *  
+* Design
+  * Inspired by migration map 
+  * Color scheme 
+ 
 
-# at least one new feature to the maproom
-* Chloropleth map *
-* Making web design consistent across all pages *
-
-# a link to your updated maproom
+# Updated Maproom
 [Our Maproom](https://radha0207.github.io/Economic-Inequality-working-title-/Midterm/)
-
-# a description of these features and any other additions to the group project
 
 # a schedule of deliverables until the final
 Week  | Deliverables
