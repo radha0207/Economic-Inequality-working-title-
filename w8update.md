@@ -10,7 +10,7 @@
 * Chloropleth map
   * Separate chloropleth layers
 * Bivariate map 
-  *  
+  * Inspired by [Arcgis relationship map](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/what-is-a-relationship-map/)
 * Design
   * Inspired by migration map 
   * Color scheme 
