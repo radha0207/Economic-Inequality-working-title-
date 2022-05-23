@@ -12,7 +12,7 @@
 * Bivariate map 
   * Visualizing both poverty rates and labor index scores on the same map. An idea inspired by [Arcgis relationship map](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/what-is-a-relationship-map/)
 * Design
-  * A minimal and clean design inspired by [migration map] (https://maps.tnc.org/migrations-in-motion/#4/56.15/-119.44)
+  * A minimal and clean design inspired by [migration map](https://maps.tnc.org/migrations-in-motion/#4/56.15/-119.44)
   * Color scheme : Black, Pastel, Orange
  
 
