@@ -18,7 +18,7 @@
 
 # Updated Maproom
 * [Case Studies Page Maproom](https://edrynazarif.github.io/DH151/Midterm/index.html)
-* [Bivariate Map](https://siala7.github.io/DH151/FinalProjectMap/)
+* [Bivariate Map](https://siala7.github.io/Laborinth/Chloropleth/)
 
 # A schedule of deliverables until the final
 Week  | Deliverables
