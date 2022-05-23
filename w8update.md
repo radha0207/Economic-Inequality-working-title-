@@ -20,7 +20,7 @@
 * [Case Studies Page Maproom](https://edrynazarif.github.io/DH151/Midterm/index.html)
 * [Bivariate Map](https://siala7.github.io/DH151/FinalProjectMap/)
 
-# a schedule of deliverables until the final
+# A schedule of deliverables until the final
 Week  | Deliverables
 ------------- | -------------
 8  | Working Bivariate Map on Maproom, Content for Case Studies Page
@@ -29,6 +29,6 @@ Week  | Deliverables
 Final | Presentation
 
 
-# concerns
+# Concerns
 * Ensuring all data is transferred during the merging process (.json with .csv) 
 
