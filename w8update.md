@@ -30,4 +30,5 @@ Final | Presentation
 
 # Concerns
 * Ensuring all data is transferred during the merging process (.json with .csv) 
+* Getting the case studies' collapsible info panel to work
 
