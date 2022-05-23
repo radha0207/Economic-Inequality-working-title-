@@ -17,7 +17,8 @@
  
 
 # Updated Maproom
-[Our Maproom](https://radha0207.github.io/Economic-Inequality-working-title-/Midterm/)
+[Case Studies Page Maproom](https://edrynazarif.github.io/DH151/Midterm/index.html)
+[Bivariate Map]
 
 # a schedule of deliverables until the final
 Week  | Deliverables
