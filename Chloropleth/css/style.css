@@ -87,7 +87,6 @@ h2{
 }
 
 .content {
-	padding-left: 10px;
 	margin:0;
 	height:700px; 
 	grid-area: content;
@@ -108,8 +107,8 @@ h2{
 .info {
 	padding: 6px 8px;
 	font: 14px/16px Arial, Helvetica, sans-serif;
-	background: white;
-	background: rgba(255,255,255,0.8);
+	color:rgb(250, 241, 207); 
+	background: rgb(31, 7, 70);
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
 	border-radius: 5px;
 	min-width: 250px;
@@ -122,7 +121,9 @@ h2{
 
 .legend {
 	line-height: 18px;
-	color: #555;
+	color: rgb(31, 7, 70);
+	background: rgb(250, 241, 207);
+	max-width: 200px; 
 }
 .legend i {
 	width: 18px;

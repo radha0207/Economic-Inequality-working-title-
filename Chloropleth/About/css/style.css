@@ -6,25 +6,25 @@ body,html {
 	width:100%;
 }
 
-#map {
-	height: 100%;
-}
 
 body {
 	display: grid;
+	/*grid-template-rows: 90px 1fr 60px;
+	grid-template-columns: 100px 1fr;*/
 	grid-template-rows: 130px 1fr;
 	grid-template-columns: 170px 1fr;
 	grid-template-areas: 
 	"header header"
-    "navigation navigation"
-	"title title"
+	"navigation navigation"
 	"content content"
-    "footer footer"; 
+	"footer footer";
+	font-family: 'Source Sans Pro', sans-serif;
+	
 }
 
 .header {
 	grid-area: header;
-	padding:5px;
+	padding: 5px;
 	background-color: rgb(8, 33, 60);
 	color: rgb(255, 151, 60);
 	font-size: 2em;
@@ -70,64 +70,43 @@ body {
 	border-right: 1px solid rgb(249, 171, 103) 
 }
 
-.title {
-	grid-area: title;
-	margin:0; 
+.sidebar {
+	color: white;
+	grid-area: sidebar;
 	padding:10px;
-	background-color: rgb(8, 33, 60);
-	color: rgb(255, 151, 60);
-	font-size:2.5em;
-	font-family:'Libre Bodoni', serif;
-	font-weight:lighter;
+	background-color: #555;
+	overflow: auto;
 }
 
-h2{
-	margin:0px; 
-	font-size:2em;
-}
 
 .content {
-	padding-left: 10px;
-	margin:0;
-	height:700px; 
 	grid-area: content;
-	background: rgb(8, 33, 60);
-    color: rgb(241, 225, 210); 
-	font-family: 'Helvetica', sans-serif;
+	margin-left: 25%;
+    margin-right: 25%;
+
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: left;
+	width: 30%;
+
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  img.figure{
+	  border-radius:50%;
+  }
+
 
 .footer {
 	grid-area: footer;
 	padding:10px;
-	background-color: rgb(10, 45, 82);
-    color: rgb(249, 171, 103);
-    font-family: 'Helvetica', sans-serif;
-}
-
-/* legend styles */
-.info {
-	padding: 6px 8px;
-	font: 14px/16px Arial, Helvetica, sans-serif;
-	background: white;
-	background: rgba(255,255,255,0.8);
-	box-shadow: 0 0 15px rgba(0,0,0,0.2);
-	border-radius: 5px;
-	min-width: 250px;
-	min-height: 50px;
-}
-.info h4 {
-	margin: 0 0 5px;
-	color: #777;
-}
-
-.legend {
-	line-height: 18px;
-	color: #555;
-}
-.legend i {
-	width: 18px;
-	height: 18px;
-	float: left;
-	margin-right: 8px;
-	opacity: 0.7;
+	background-color: rgb(207, 198, 198);
 }
