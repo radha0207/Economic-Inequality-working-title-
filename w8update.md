@@ -4,16 +4,16 @@
 # New Features 
 * Chloropleth map 
 * Bivariate map
-* Making web design consistent across all pages 
+* Case Studies Page
 
 # Description of these features and any other additions to the group project
 * Chloropleth map
   * Separate chloropleth layers
 * Bivariate map 
-  * Inspired by [Arcgis relationship map](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/what-is-a-relationship-map/)
+  * Visualizing both poverty rates and labor index scores on the same map. An idea inspired by [Arcgis relationship map](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/what-is-a-relationship-map/)
 * Design
-  * Inspired by migration map 
-  * Color scheme 
+  * A minimal and clean design inspired by [migration map] (https://maps.tnc.org/migrations-in-motion/#4/56.15/-119.44)
+  * Color scheme : Black, Pastel, Orange
  
 
 # Updated Maproom
@@ -22,10 +22,12 @@
 # a schedule of deliverables until the final
 Week  | Deliverables
 ------------- | -------------
-8  | Working Chloropleth and Bivariate Map on Maproom, Content for Case Studies Page, Consistent Web Design across all pages
-9 | Search Bar on Maproom, Case Studies Page, Improving Web Design across all pages
+8  | Working Bivariate Map on Maproom, Content for Case Studies Page
+9 | Consistent Web Design, Search Bar on Maproom, Case Studies Info Panel, Improving Web Design across all pages
 10  | Content and Data Narrative on other pages (About, Creating the Map, Sources)
 Final | Presentation
 
 
 # concerns
+* Ensuring all data is transferred during the merging process (.json with .csv) 
+
